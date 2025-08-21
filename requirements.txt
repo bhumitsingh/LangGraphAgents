@@ -1,4 +1,36 @@
+# Core LangChain and LangGraph frameworks
 langchain
-langchain-openai
 langgraph
-httpx
+langchain-openai
+langchain-google-genai
+
+# OpenAI for summarization
+openai
+
+# Audio transcription
+faster-whisper
+
+# Language detection
+fasttext
+
+# Translation models from Hugging Face
+transformers
+sentencepiece
+torch
+
+# Utilities
+python-dotenv
+
+# Audio Packages
+sounddevice
+scipy
+
+# Alternative audio package (especially for Windows)
+# Uncomment the line below if you have issues with sounddevice
+# pyaudio
+
+# PDF Export
+fpdf
+
+# UI Framework (built-in, no installation required)
+# tkinter

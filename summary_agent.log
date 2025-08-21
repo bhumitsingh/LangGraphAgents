@@ -1,0 +1,16 @@
+2025-08-21 16:48:06,049 - agents.summary_agent - INFO - Loading environment variables
+2025-08-21 16:48:06,050 - agents.summary_agent - DEBUG - LLM provider set to: openai
+2025-08-21 16:48:06,050 - agents.summary_agent - DEBUG - Checking for language detection model at: lid.176.bin
+2025-08-21 16:48:06,050 - agents.summary_agent - INFO - Initializing Whisper transcription model
+2025-08-21 16:48:06,054 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-08-21 16:48:06,426 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/Systran/faster-whisper-base/revision/main HTTP/1.1" 200 1909
+2025-08-21 16:48:07,369 - agents.summary_agent - INFO - Loading FastText language detection model
+2025-08-21 16:48:07,711 - agents.summary_agent - INFO - Initializing LLM with provider: openai
+2025-08-21 16:48:07,711 - agents.summary_agent - INFO - Using OpenAI (gpt-4o) as the LLM
+2025-08-21 16:48:08,115 - agents.summary_agent - INFO - Building and compiling the LangGraph workflow
+2025-08-21 16:48:08,115 - agents.summary_agent - DEBUG - Adding nodes to graph
+2025-08-21 16:48:08,117 - agents.summary_agent - DEBUG - Setting entry point
+2025-08-21 16:48:08,117 - agents.summary_agent - DEBUG - Adding edges to graph
+2025-08-21 16:48:08,117 - agents.summary_agent - DEBUG - Adding conditional edges
+2025-08-21 16:48:08,117 - agents.summary_agent - INFO - Compiling LangGraph workflow
+2025-08-21 16:48:08,124 - agents.summary_agent - INFO - LangGraph workflow compiled successfully
